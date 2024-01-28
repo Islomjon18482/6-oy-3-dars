@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    align-items: center;
+    width: 1257px;
+}
+.main__text h2{
+    color: #13390D;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.main__text p{
+    color: rgba(19, 57, 13, 0.70);
+    width: 500px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+.main__text button{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #13390D;
+    padding: 21px 71px;
+    border: none;
+}
+.main__text button:hover{
+    cursor: pointer;
+}
+.main__img{
+    background-image: url(../public/img.png);
+    width: 794px;
+    height: 741px;
+    flex-shrink: 0;
+}

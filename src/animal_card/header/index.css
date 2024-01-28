@@ -1,0 +1,41 @@
+.header{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__btn{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav__btn ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav__btn ul li{
+    color: #13390D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
+.btn button{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: transparent;
+    padding: 12px 22px;
+    color: #13390D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #13390D;
+    border-radius: 4px;
+}
+.btn button:hover{
+    cursor: pointer;
+}
