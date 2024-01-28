@@ -40,7 +40,6 @@
     cursor: pointer;
 }
 .main__img{
-    background-image: url(../public/img.png);
     width: 794px;
     height: 741px;
     flex-shrink: 0;
