@@ -11,7 +11,7 @@ export default function Main() {
             <button>Join Us</button>
         </div>
         <div className="main__img">
-          <img src="../public/img.png" alt="" />
+          <img src="../img.png" alt="" />
         </div>
       </div>
     </>
